@@ -5,4 +5,4 @@ They opted to keep their current website so that they (the owner) can maintain i
 
 To view my version:
   Option 1: View the screenshots in the folder.
-  Oprion 2. Download files and open CLWS.html in a browser.
+  Oprion 2. Download CLWS file and open CLWS.html in a browser.
