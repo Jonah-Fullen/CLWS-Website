@@ -1,0 +1,200 @@
+/*
+Author: Jonah Fullen
+Date: 09/20/2021
+Project Name: CLWS
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background: linear-gradient(to right, #ccc, #222);
+	background-color: #f2f2f2;
+}
+
+img {
+	max-width: 100%;
+	display: bolck;
+}
+
+
+/* Style rules for header */
+header {
+	clear: left;
+	text-align: center;
+	width: 100%;
+}
+
+header img {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Style rules for navigation area */
+nav {
+	clear: left;
+	width: 95%;
+	display: inline-block;
+	float: center;
+	margin: 2.5em;
+	background: linear-gradient(to bottom right, #0066ff, #000066);
+	background-color: #0066ff;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: left;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+main {
+	background: linear-gradient(to right, #ccc, #222);
+	background-color: #f2f2f2;
+	padding: 2%;
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+}
+
+main h1 {
+	font-size: 1.8em;
+	color: #fff;
+}
+
+main h3 {
+	width: 100%;
+	clear: left;
+	background: linear-gradient(to bottom right, #0066ff, #000066);
+	background-color: #0066ff;
+	color: #fff;
+	text-align: center;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+}
+
+#motorized, #family, #non-motorized {
+	/*background: linear-gradient(to right, #ccc, #fff);
+	background-color: #f2f2f2;*/
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+}
+
+.round {
+	border-radius: 8px;
+}
+
+.external-link {
+	color: #666600;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer {
+	clear: left;
+	background: linear-gradient(to bottom right, #0066ff, #000066);
+	background-color: #0066ff;	
+}
+
+footer p {
+	font-size: 0.75em;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
+
+footer p a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#faqs {
+	clear: left;
+	background: linear-gradient(to right, #fff, #ccc);
+	background-color: #f2f2f2;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	color: #000;
+}
+
+#faqs h1 {
+	clear: left;
+	background: linear-gradient(to bottom right, #0066ff, #000066);
+	background-color: #0066ff;
+	color: #fff;
+	border-bottom: 5px solid #000;
+}
+
+#faqs dt {
+	font-weight: bold;
+}
+
+#faqs dd {
+	padding: 0.5% 1% 2% 0;
+}
+
+#links {
+	clear: left;
+	background: linear-gradient(to right, #fff, #ccc);
+	background-color: #f2f2f2;
+	border-bottom: 5px solid #000;
+	color: #000;
+}
+
+#links h1 {
+	clear: left;
+	background: linear-gradient(to bottom right, #0066ff, #000066);
+	background-color: #0066ff;
+	color: #fff;
+	border-bottom: 5px solid #000;
+}
+
+#links h2 {
+	padding-left: 2em;
+	color: #000;
+}
+
+#map {
+	clear: left;
+	background: linear-gradient(to right, #fff, #ccc);
+	background-color: #f2f2f2;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	color: #000;
+	text-align: center;
+}
+
+.map {
+	border: 2px solid #fff;
+	width: 95%;
+	height: 50%;
+}
